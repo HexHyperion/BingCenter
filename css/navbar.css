@@ -1,0 +1,41 @@
+@media only screen and (min-width: 1920px) {
+
+    .b_scopebar .b_scope_scroll{
+        margin-right: 0 !important;
+    }
+
+    #b_header{
+        display: grid !important;
+    }
+
+    #sb_form{
+        justify-self: center !important;
+        margin-left: 0px !important;
+    }
+
+    #id_h{
+        position: absolute !important;
+        top: 15px !important;
+        right: 20px !important;
+    }
+
+    nav.b_scopebar{
+        display: flex !important;
+        justify-content: center !important;
+        margin-left: 0 !important;
+    }
+    
+    .b_sydConvMode nav.b_scopebar{
+        width: fit-content !important;
+        margin-top: 0 !important;
+        margin-left: 10px !important;
+    }
+
+    body.b_sydConvMode .b_logoarea{
+        margin-right: 0 !important;
+    }
+
+    body.b_sydConvMode .b_phead_chat_link{
+        display: none !important;
+    }
+}

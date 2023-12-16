@@ -1,0 +1,22 @@
+@media only screen and (min-width: 1920px) {
+
+    #b_content{
+        margin: 0 auto !important;
+        width: fit-content !important;
+        padding-left: 0 !important;
+    }
+
+    aside:nth-child(3){
+        display: none !important;
+    }
+
+    #news{
+        display: grid !important;
+    }
+
+    #news.news.search .newscontainer{
+        width: fit-content !important;
+        justify-self: center !important;
+        margin-left: 0 !important;
+    }
+}

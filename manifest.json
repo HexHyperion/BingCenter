@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "BingCenter",
+  "version": "1.0",
+  "description": "Center Bing search result pages and Bing AI Chat on wider monitors. If almost every page is centered, why shouldn't Bing be?",
+  
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.bing.com/search?*", "https://*.bing.com/news*"],
+      "css": ["css/content.css"]
+    },
+    {
+      "matches": ["https://*.bing.com/search?*", "https://*.bing.com/*/search?*"],
+      "css": ["css/navbar.css"]
+    },
+    {
+      "matches": ["https://*.bing.com/*"],
+      "js": ["js/chat.js"]
+    }
+  ]
+}
