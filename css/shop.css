@@ -1,0 +1,7 @@
+#b_results{
+    max-width: none !important;
+}
+
+#resultsContainer{
+    width: calc(100% - 280px) !important;
+}
